@@ -7,6 +7,9 @@ p {
 }
 header, section, footer{
     background-color: aqua;
+    border: 5px burlywood solid;
+    padding: 30px 50px;
+    margin: 15px 25px
 }
 * {
     padding: 0;
