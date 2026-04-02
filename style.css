@@ -1,10 +1,4 @@
-h1{
-    color: red
-}
-p {
-    color: blue;
-    font: size 11px;
-}
+
 header, section, footer{
     background-color: aqua;
 }
