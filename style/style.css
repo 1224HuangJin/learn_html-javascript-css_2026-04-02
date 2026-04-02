@@ -1,0 +1,32 @@
+/* 头部文件，背景颜色=黑色 */
+header {
+    background-color: black;
+}
+/* h1 主标题文字颜色 = 白色 */
+h1 {
+    color: white;
+}
+/* 
+text-decoration 在这边代表链接中的下划线
+在第一个:
+header a{
+        ...
+        text-decoration: none;
+}
+代表在a文本中，不要显示任何"文字装饰"（链接下划线）
+*/
+header a{
+    color: white;
+    text-decoration: none;
+}
+/*
+而在下面那段代码中，在
+header a:hover{
+    text-decoration:underline
+} 
+个人解读为：
+在鼠标在链接上时，显示下划线（underline）
+*/
+header a:hover{
+    text-decoration: underline;
+}
