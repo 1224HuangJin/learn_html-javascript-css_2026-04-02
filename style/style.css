@@ -1,5 +1,8 @@
 /* 以下内容皆学自：https://youtu.be/6HHN0G2cwBM */ 
-
+*{
+    padding: 0;
+    margin:0;
+}
 /* 
 "头部"，背景颜色=黑色 
 高度（height）占80px（80像素）
@@ -8,7 +11,7 @@ position 解释： https://youtu.be/6HHN0G2cwBM?t=851
 */
 header {
     background-color: black;
-    height: 80px;
+    height: 100px;
     width: 100%;
     position: relative;
 }
@@ -29,16 +32,16 @@ h1 {
     position: absolute;
     left:120px;
     top:0;
-    line-height: 80px;
-    background-image:url(images/book-closed-svgrepo-com.svg);
+    line-height: 110px;
+    background-image:url(/images/web-logo.png);
     background-repeat: no-repeat;
     background-position: center;
     /* 核心修复代码（AI的帮助）：https://gemini.google.com/share/8f7d3ac049eb  */
     background-size: contain;  /* 自动缩放图片，使其完整显示在 80px 的格子内 */
     /* 或者你也可以手动指定大小，比如： */
     /* background-size: 40px 40px; */
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    heirght: 10px;
     text-indent: -9999px;
 }
 /* 
