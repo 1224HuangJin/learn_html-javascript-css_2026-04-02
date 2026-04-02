@@ -33,6 +33,10 @@ h1 {
     background-image:url(images/book-closed-svgrepo-com.svg);
     background-repeat: no-repeat;
     background-position: center;
+    /* 核心修复代码（AI的帮助）：https://gemini.google.com/share/8f7d3ac049eb  */
+    background-size: contain;  /* 自动缩放图片，使其完整显示在 80px 的格子内 */
+    /* 或者你也可以手动指定大小，比如： */
+    /* background-size: 40px 40px; */
     width: 80px;
     height: 80px;
     text-indent: -9999px;
