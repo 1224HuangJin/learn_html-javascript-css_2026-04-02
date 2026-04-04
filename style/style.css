@@ -9,12 +9,14 @@
 高度（height）占80px（80像素）
 宽度（width）占满屏幕
 position 解释： https://youtu.be/6HHN0G2cwBM?t=851
+
+ 将position改为fixed，那就不会跟随网页运动了（就是会固定在上面）
 */
 header {
     background-color: black;
     height: 100px;
     width: 100%;
-    position: relative;
+    position: fixed;
 }
 /* 
 h1 主标题文字颜色 = 白色
@@ -156,6 +158,8 @@ align-items = 垂直对齐（左右对齐）
     padding: 20px; /* 增加一点内边距好看一些 */
 }
 
+/* HTMl内容 */
+
 .HTML{
     /* 以下内容皆为AI帮助 */
     display: flex;           /* 开启弹性布局，子元素会自动横向排列 */
@@ -192,10 +196,46 @@ text-align: left;        /* 确保段落文字也是左对齐 */
     line-height: 2em;
 }
 
+/* HTML End */
 
+/* CSS的部分我直接抄了上面那些、然后把图片弄到右边，然后内容到左边 */
 .CSS{
-
+    /* 以下内容皆为AI帮助 */
+    display: flex;           /* 开启弹性布局，子元素会自动横向排列 */
+    width: 100%;             /* 宽度占满全屏 */
+    min-height: 400px;       /* 给个最小高度，防止内容太少不好看 */
+    background-color: antiquewhite; /* 背景色填满整个区域 */
+    align-items: stretch;    /* 让左右两边高度对齐 */
 }
+.CSS-img{
+    width: 50%;
+    left: 50%;
+    object-fit: cover;       
+    /* AI帮助：
+    关键：保证图片在拉伸时不失真，自动裁剪填充 */
+}
+
+.CSS-info{
+right: 50%;
+width: 50%;
+background-color: antiquewhite;
+display: flex;
+flex-direction: column;
+align-items: flex-start; /* 文字左对齐 */
+justify-content: center;
+text-align: left;        /* 确保段落文字也是左对齐 */
+}
+.CSS-info h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.CSS-info p{
+    text-align: center;
+    line-height: 2em;
+}
+
+/* CSS End */
 
 .contact{
 
