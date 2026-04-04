@@ -126,6 +126,7 @@ border = 细边框
 border-radius = 细边框圆角效果
 */
 .First-about a{
+    display: inline-flex; /* 加上这一行，你的对齐才会生效 */
     color: #FEF7E6;
     text-decoration: none;
     border: 1px solid #FEF7E6;
@@ -143,12 +144,13 @@ align-items = 垂直对齐（左右对齐）
 .quote{
     background-color: aquamarine;
     color: white;
-    height: 20px;
     display: flex;
+    min-height: 80px; /* 改用最小高度更灵活 */
     justify-content: center;
     align-items: center;
     font-size: 20px;
     line-height: 1.8em;
+    padding: 20px; /* 增加一点内边距好看一些 */
 }
 
 .HTML-info{
@@ -173,9 +175,13 @@ justify-content: center;
 .HTML-info img{
     width: 50%;
 }
+
 .HTML img{
     width: 50%;
+}
 
+.HTML-info img{
+    width: 50%;
 }
 
 .CSS{
