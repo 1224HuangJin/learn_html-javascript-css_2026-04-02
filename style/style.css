@@ -247,7 +247,12 @@ footer{
     font-size: 14px;
 }
 
+
 /* 响应式设计语法 https://youtu.be/6HHN0G2cwBM?t=1523 */
+
+.menu{
+    display: none;
+}
 @media screen and (max-width: 768px) {
     header ul {
         display: none;
