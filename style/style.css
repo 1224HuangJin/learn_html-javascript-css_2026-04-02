@@ -156,9 +156,20 @@ align-items = 垂直对齐（左右对齐）
     padding: 20px; /* 增加一点内边距好看一些 */
 }
 
+.HTML{
+    /* 以下内容皆为AI帮助 */
+    display: flex;           /* 开启弹性布局，子元素会自动横向排列 */
+    width: 100%;             /* 宽度占满全屏 */
+    min-height: 400px;       /* 给个最小高度，防止内容太少不好看 */
+    background-color: antiquewhite; /* 背景色填满整个区域 */
+    align-items: stretch;    /* 让左右两边高度对齐 */
+}
 .HTML-img{
     width: 50%;
     left: 50%;
+    object-fit: cover;       
+    /* AI帮助：
+    关键：保证图片在拉伸时不失真，自动裁剪填充 */
 }
 
 .HTML-info{
