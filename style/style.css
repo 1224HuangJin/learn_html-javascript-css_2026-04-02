@@ -115,9 +115,12 @@ color: blanchedalmond;
 
 .First-about p{
     color: #FEF7E6;
-    font-size: 14px;
+    font-size: 25px;
+    margin-top: 5%;
+    top: 0%;
     margin-bottom: 5%;
     align-items: center;
+    text-align: center;
     justify-content: center;
 }
 
