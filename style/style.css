@@ -95,7 +95,7 @@ header a:hover{
 .First-about{
 background-color: wheat ;
 /* 在AI的帮助下，添加了背景虚化效果："linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))," */
-background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/about-background.jpg);
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://io.wss.moe/image/h);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -105,7 +105,7 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 color:white;
-margin: 25px 0;
+margin: 0;
 }
 /* 2026/04/02 先做到这里：https://youtu.be/6HHN0G2cwBM?t=1121 */
 .First-about h2{
@@ -115,7 +115,7 @@ color: blanchedalmond;
 
 .First-about p{
     color: #FEF7E6;
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 5%;
     top: 0%;
     margin-bottom: 5%;
@@ -146,7 +146,7 @@ align-items = 垂直对齐（左右对齐）
 */
 .quote{
     background-color: aquamarine;
-    color: white;
+    color: black;
     display: flex;
     min-height: 80px; /* 改用最小高度更灵活 */
     justify-content: center;
@@ -154,6 +154,14 @@ align-items = 垂直对齐（左右对齐）
     font-size: 20px;
     line-height: 1.8em;
     padding: 20px; /* 增加一点内边距好看一些 */
+}
+
+.HTML-info img{
+    width: 50%;
+}
+
+.HTML img{
+    width: 50%;
 }
 
 .HTML-info{
@@ -175,17 +183,6 @@ justify-content: center;
     line-height: 2em;
 }
 
-.HTML-info img{
-    width: 50%;
-}
-
-.HTML img{
-    width: 50%;
-}
-
-.HTML-info img{
-    width: 50%;
-}
 
 .CSS{
 
